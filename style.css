@@ -50,5 +50,36 @@ p {
         4px 4px 5px 0px rgba(0, 0, 0, .1);
     outline: none;
 }
+/* Button 1: Flat button with a bold background */
+.btn-1 {
+    background-color: #3498db; /* Blue background */
+    color: white;
+}
 
-/* Add your custom styles for btn-1, btn-2, and btn-3 */
+.btn-1:hover {
+    background-color: #2980b9; /* Darker blue when hovered */
+}
+
+/* Button 2: Background with a shadow effect */
+.btn-2 {
+    background: linear-gradient(45deg, #ff6b6b, #f39c12); /* Gradient from red to orange */
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft shadow around the button */
+}
+
+.btn-2:hover {
+    background: linear-gradient(45deg, #f39c12, #ff6b6b); /* Reverse the gradient on hover */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+/* Button 3: Button with a bold border */
+.btn-3 {
+    background-color: transparent;
+    color: #259240; /* green text */
+    border: 2px solid #1e654d; /* green border */
+}
+
+.btn-3:hover {
+    background-color: hsl(300, 75%, 49%); /*Pink backround on hover/*
+    color: rgb(255, 255, 255); /* white text when hovered */
+}
